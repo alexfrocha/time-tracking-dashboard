@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Time Tracking Dashboard</title>
@@ -13,16 +13,16 @@
 
 
   <div class="content">
-    <div class="card-user card-content">
-      <div class="card-user-banner">
+    <div class="card-user ">
+      <div class="card-user-banner card-content">
         <img src="./images/avatar.png" alt="" class="card-user-avatar">
         <p class="card-user-text">Relatório de</p>
         <h1 class="card-user-name">Álex Fernando</h1>
       </div>
-      <ul class="card-user-list">
-        <li class="card-user-item"><a href="" class="card-user-link">Diário</a></li>
-        <li class="card-user-item"><a href="" class="card-user-link">Semanal</a></li>
-        <li class="card-user-item"><a href="" class="card-user-link">Mensal</a></li>
+      <ul class="card-user-list card-content">
+        <li class="card-user-item"><a href="?type=daily" class="card-user-link">Diário</a></li>
+        <li class="card-user-item"><a href="?type=weekly" class="card-user-link">Semanal</a></li>
+        <li class="card-user-item"><a href="?type=monthly" class="card-user-link">Mensal</a></li>
       </ul>
     </div>
 
@@ -30,7 +30,7 @@
       <div class="card-banner">
         <img src="./images/icon-work.svg" alt="" class="card-icon">
       </div>
-      <div class="card-content">
+      <div class="card-content card-container">
         <div class="card-header">
           <p class="card-header-title">Trabalho</p>
           <img src="./images/icon-ellipsis.svg" alt="" class="card-header-icon">
@@ -44,7 +44,7 @@
       <div class="card-banner">
         <img src="./images/icon-play.svg" alt="" class="card-icon">
       </div>
-      <div class="card-content">
+      <div class="card-content card-container">
         <div class="card-header">
           <p class="card-header-title">Jogos</p>
           <img src="./images/icon-ellipsis.svg" alt="" class="card-header-icon">
@@ -58,7 +58,7 @@
       <div class="card-banner">
         <img src="./images/icon-study.svg" alt="" class="card-icon">
       </div>
-      <div class="card-content">
+      <div class="card-content card-container">
         <div class="card-header">
           <p class="card-header-title">Estudo</p>
           <img src="./images/icon-ellipsis.svg" alt="" class="card-header-icon">
@@ -72,7 +72,7 @@
       <div class="card-banner">
         <img src="./images/icon-exercise.svg" alt="" class="card-icon">
       </div>
-      <div class="card-content">
+      <div class="card-content card-container">
         <div class="card-header">
           <p class="card-header-title">Exercício</p>
           <img src="./images/icon-ellipsis.svg" alt="" class="card-header-icon">
@@ -86,7 +86,7 @@
       <div class="card-banner">
         <img src="./images/icon-social.svg" alt="" class="card-icon">
       </div>
-      <div class="card-content">
+      <div class="card-content card-container">
         <div class="card-header">
           <p class="card-header-title">Redes Sociais</p>
           <img src="./images/icon-ellipsis.svg" alt="" class="card-header-icon">
@@ -100,17 +100,17 @@
       <div class="card-banner">
         <img src="./images/icon-self-care.svg" alt="" class="card-icon">
       </div>
-      <div class="card-content">
+      <div class="card-content card-container">
         <div class="card-header">
-          <p class="card-header-title">Cuidado Pessoal</p>
+          <p class="card-header-title">Saúde</p>
           <img src="./images/icon-ellipsis.svg" alt="" class="card-header-icon">
         </div>
-        <h2 class="card-title"></h2>
-        <p class="card-previous"></p>
+        <h2 class="card-title">34hrs</h2>
+        <p class="card-previous">Última semana - 12hrs</p>
       </div>
     </div>
 
   </div>
-  
+  <script src="./assets/js/app.js"></script>
 </body>
 </html>
