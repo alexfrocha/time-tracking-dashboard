@@ -1,7 +1,7 @@
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![FastAPI](https://img.shields.io/badge/API-005571?style=for-the-badge&logo=fastapi)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 # 🎨 Time Tracking Dashboard
 ![image](https://user-images.githubusercontent.com/107084445/178485642-ef43d584-d28c-45d6-b500-766a0b6c5409.png)
 <hr>
